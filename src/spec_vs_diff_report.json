@@ -1,0 +1,46 @@
+{
+  "kind": "spec_vs_diff_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-07T09:00:35.548Z",
+  "summary": "The diff indicates changes in the blog post view, but the provided truncated code does not include the portions needed to verify the affiliate URL replacement, new-tab behavior, or the final end-of-post CTA and spacing. Additionally, there appear to be unrelated style updates in homepage sections that were explicitly non-goals.",
+  "missing_requirements": [
+    {
+      "id": "REQ-11",
+      "requirement": "Update the full blog post page to include extra spacing at the very end of the post content and add a final call-to-action line with a clickable link opening in a new tab pointing exactly to https://kramis-teppich.coachy.net/lp/rug-making-tutorial/?aff=lishayK007.",
+      "reason": "The BlogPostView.tsx diff is truncated before any end-of-post CTA/spacing area, so there is no visible evidence of the final CTA sentence, extra spacing, the exact URL, or target=\"_blank\" behavior in the provided diff summary.",
+      "evidence": [
+        "frontend/src/components/blog/BlogPostView.tsx (truncated)"
+      ]
+    },
+    {
+      "id": "REQ-12",
+      "requirement": "Replace the placeholder affiliate link in the blog post’s existing 'Explore the Complete Course' button with https://kramis-teppich.coachy.net/lp/rug-making-tutorial/?aff=lishayK007 and ensure it opens in a new tab.",
+      "reason": "The diff snippet does not include the 'Explore the Complete Course' button markup or href/target attributes, so there is no direct evidence that the placeholder was removed, the exact URL was used, or that it opens in a new tab.",
+      "evidence": [
+        "frontend/src/components/blog/BlogPostView.tsx (truncated)"
+      ]
+    }
+  ],
+  "hallucinated_features": [
+    {
+      "description": "Unrelated styling update(s) to the homepage CourseRecommendationSection (e.g., Tailwind class change to shrink-0).",
+      "reason": "The BuildRequest explicitly lists updating homepage affiliate link placeholders as non-goals, and does not request any homepage section styling changes.",
+      "evidence": [
+        "frontend-file-summaries.txt (CourseRecommendationSection description)"
+      ]
+    },
+    {
+      "description": "Unrelated styling update(s) to the homepage BlogSection (e.g., Tailwind class change to shrink-0).",
+      "reason": "The BuildRequest does not request changes to the homepage blog listing section; only the blog post detail view CTA/link behavior is requested.",
+      "evidence": [
+        "frontend-file-summaries.txt (BlogSection description)"
+      ]
+    }
+  ],
+  "confidence": 0.55,
+  "changed_files": [
+    "frontend-file-summaries.txt",
+    "frontend/src/components/blog/BlogPostView.tsx",
+    "project_state.json"
+  ]
+}

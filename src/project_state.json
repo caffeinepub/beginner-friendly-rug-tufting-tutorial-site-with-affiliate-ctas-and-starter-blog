@@ -1,0 +1,164 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Beginner-friendly rug tufting tutorial website with a clean, modern, cozy handmade aesthetic, optimized for Pinterest/SEO, featuring an affiliate course promotion and a starter blog post.",
+  "architectural_notes": [
+    "Include affiliate link placeholders and ensure CTAs are easy to swap to the real link later.",
+    "Prioritize mobile-first layout and Pinterest/SEO-friendly content structure (clear headings, scannable sections).",
+    "Affiliate course URL has been provided; replace all [PASTE AFFILIATE LINK HERE] placeholders with https://kramis-teppich.coachy.net/lp/rug-making-tutorial/?aff=lishayK007 (homepage and blog CTAs)."
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-clean-modern-mobile-friendly-homepage-that-teaches-beginners-about-handmade-rug-making-rug-tufting-and-is-structured-for-pinterest-friendly-scanning-clear-sections-strong-headings-visual-forward-layout",
+      "title": "Create a clean, modern, mobile-friendly homepage that teaches beginners about handmade rug making (rug tufting) and is structured for Pinterest-friendly scanning (clear sections, strong headings, visual-forward layout).",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-the-homepage-hero-section-with-1-a-headline-introducing-rug-making-as-a-creative-skill-anyone-can-learn-at-home-2-a-subheadline-emphasizing-beginners-can-start-with-no-experience-and-3-a-primary-cta-button-linking-to-the-affiliate-course-url-exactly-as-provided-paste-affiliate-link-here",
+      "title": "Implement the Homepage Hero section with: (1) a headline introducing rug making as a creative skill anyone can learn at home, (2) a subheadline emphasizing beginners can start with no experience, and (3) a primary CTA button linking to the affiliate course URL exactly as provided: [PASTE AFFILIATE LINK HERE].",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-what-is-rug-making-section-that-explains-tufting-in-simple-terms-mentions-the-basic-tools-tufting-gun-yarn-frame-cloth-and-emphasizes-creativity-relaxation-and-the-potential-to-sell-handmade-rugs",
+      "title": "Add a 'What Is Rug Making' section that explains tufting in simple terms, mentions the basic tools (tufting gun, yarn, frame, cloth), and emphasizes creativity, relaxation, and the potential to sell handmade rugs.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-course-recommendation-affiliate-section-that-explains-why-beginners-should-follow-a-step-by-step-rug-making-course-highlights-benefits-learning-faster-avoiding-mistakes-professional-finishing-and-includes-at-least-two-cta-buttons-linking-to-the-affiliate-course-url-exactly-as-provided-paste-affiliate-link-here",
+      "title": "Add a 'Course Recommendation' (affiliate) section that explains why beginners should follow a step-by-step rug making course, highlights benefits (learning faster, avoiding mistakes, professional finishing), and includes at least two CTA buttons linking to the affiliate course URL exactly as provided: [PASTE AFFILIATE LINK HERE].",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-blog-section-on-the-site-that-features-one-short-beginner-friendly-blog-post-titled-how-to-start-making-handmade-rugs-a-beginner-tutorial-and-provides-a-clear-way-to-read-the-full-post-e-g-a-blog-detail-page-or-an-expanded-view",
+      "title": "Create a Blog section on the site that features one short, beginner-friendly blog post titled 'How to Start Making Handmade Rugs: A Beginner Tutorial' and provides a clear way to read the full post (e.g., a blog detail page or an expanded view).",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-write-the-blog-post-content-in-english-with-a-short-introduction-to-rug-making-a-list-of-essential-tools-for-beginners-an-explanation-of-the-basic-rug-making-process-and-a-natural-recommendation-of-the-rug-making-tutorial-course-including-the-affiliate-link-exactly-as-provided-paste-affiliate-link-here",
+      "title": "Write the blog post content in English with: a short introduction to rug making, a list of essential tools for beginners, an explanation of the basic rug making process, and a natural recommendation of the rug making tutorial course including the affiliate link exactly as provided: [PASTE AFFILIATE LINK HERE].",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-ensure-blog-writing-style-is-friendly-simple-and-encouraging-using-short-paragraphs-and-clear-headings-and-written-to-be-seo-friendly-and-pinterest-optimized-scannable-headings-keyword-relevant-phrasing-around-rug-tufting-handmade-rugs",
+      "title": "Ensure blog writing style is friendly, simple, and encouraging, using short paragraphs and clear headings, and written to be SEO-friendly and Pinterest-optimized (scannable headings, keyword-relevant phrasing around rug tufting/handmade rugs).",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-cohesive-visual-theme-across-the-site-cozy-creative-handmade-aesthetic-with-warm-neutral-colors-texture-forward-visuals-yarn-tufted-rug-textures-and-consistent-typography-and-spacing",
+      "title": "Apply a cohesive visual theme across the site: cozy, creative, handmade aesthetic with warm neutral colors, texture-forward visuals (yarn/tufted rug textures), and consistent typography and spacing.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-basic-seo-and-pinterest-sharing-metadata-for-the-homepage-and-the-blog-post-page-title-meta-description-open-graph-twitter-style-preview-fields-so-the-pages-are-share-ready",
+      "title": "Add basic SEO and Pinterest-sharing metadata for the homepage and the blog post (page title, meta description, Open Graph/Twitter-style preview fields) so the pages are share-ready.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-the-required-generated-images-as-static-assets-under-frontend-public-assets-generated-and-use-them-in-the-homepage-blog-ui-where-appropriate-e-g-hero-background-texture-section-accents-blog-header",
+      "title": "Add the required generated images as static assets under frontend/public/assets/generated and use them in the homepage/blog UI where appropriate (e.g., hero background/texture, section accents, blog header).",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-full-blog-post-page-to-include-extra-spacing-at-the-very-end-of-the-post-content-and-add-a-final-call-to-action-line-inviting-readers-interested-in-rug-tufting-to-open-the-complete-course-link-using-exactly-this-url-https-kramis-teppich-coachy-net-lp-rug-making-tutorial-aff-lishayk007",
+      "title": "Update the full blog post page to include extra spacing at the very end of the post content and add a final call-to-action line inviting readers interested in rug tufting to open the complete course link, using exactly this URL: https://kramis-teppich.coachy.net/lp/rug-making-tutorial/?aff=lishayK007",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-the-placeholder-affiliate-link-used-in-the-blog-post-s-existing-explore-the-complete-course-button-with-the-provided-url-https-kramis-teppich-coachy-net-lp-rug-making-tutorial-aff-lishayk007",
+      "title": "Replace the placeholder affiliate link used in the blog post's existing 'Explore the Complete Course' button with the provided URL: https://kramis-teppich.coachy.net/lp/rug-making-tutorial/?aff=lishayK007",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create homepage/hero section with beginner-focused headline/subheadline and primary CTA button linking to affiliate rug making course",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Add 'What Is Rug Making' section explaining tufting basics, listing core tools, and emphasizing creativity/relaxation/sell potential",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Add course recommendation (affiliate) section explaining benefits for beginners and include at least two affiliate CTA buttons",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Create blog section with one beginner post titled 'How to Start Making Handmade Rugs: A Beginner Tutorial' including tools, process overview, and natural affiliate link placement",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Apply friendly, simple, encouraging blog writing style with short paragraphs, clear headings, and Pinterest/SEO optimization",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Implement cozy/creative/handmade design style (yarn/rug/texture visuals, warm neutral colors) with mobile-friendly layout",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Optimize site structure/content for Pinterest traffic (shareable layout, SEO-friendly sections, visual-forward design)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Add an end-of-blog CTA section with extra spacing that invites readers interested in rug tufting to open the complete course link, using the provided affiliate URL",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Beginner-friendly rug tufting tutorial site with affiliate CTAs and starter blog post",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

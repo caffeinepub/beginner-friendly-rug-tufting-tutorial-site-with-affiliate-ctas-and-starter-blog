@@ -1,0 +1,23 @@
+{
+  "backend/main.mo": "Empty Motoko actor with no implemented logic.",
+  "feature_evidence.json": "Contains feature evidence metadata describing two blog-related updates and their affected files.",
+  "frontend-file-summaries.txt": "Provides prewritten one‑sentence summaries for all frontend source files.",
+  "frontend/index.css": "Defines global Tailwind layers and extensive OKLCH-based color variables for light and dark themes.",
+  "frontend/index.html": "HTML entry file with SEO, Open Graph, Twitter, and Pinterest meta tags and root mount point.",
+  "frontend/src/App.tsx": "Main app component toggling between homepage and full blog post view while updating SEO metadata.",
+  "frontend/src/components/blog/BlogPostView.tsx": "Renders the complete blog post with images, sections, tool list, dividers, SEO update, and a back button.",
+  "frontend/src/components/Footer.tsx": "Footer displaying copyright text and a caffeine.ai attribution link.",
+  "frontend/src/components/sections/BlogSection.tsx": "Shows a preview card of the tutorial post with a button to open the full blog view.",
+  "frontend/src/components/sections/CourseRecommendationSection.tsx": "Explains course benefits and includes buttons linking to a placeholder affiliate URL.",
+  "frontend/src/components/sections/HomeHeroSection.tsx": "Hero header with background texture, intro text, and a CTA button using a placeholder affiliate link.",
+  "frontend/src/components/sections/WhatIsRugMakingSection.tsx": "React component rendering a styled informational section on rug tufting with tool lists and feature cards.",
+  "frontend/src/content/blogPost.ts": "Exports a detailed blog post object containing introductory text, tool descriptions, and step-by-step rug-making instructions.",
+  "frontend/src/hooks/useActor.ts": "Hook that creates and manages a backend actor based on the user’s Internet Identity, refreshing queries when the actor changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Provides React context and hooks for Internet Identity authentication, handling login, stored identities, and status tracking.",
+  "frontend/src/hooks/useQueries.ts": "Empty placeholder file indicating no backend query methods are needed.",
+  "frontend/src/index.css": "Defines Tailwind base styles and a warm color palette with light/dark themes and custom utility classes.",
+  "frontend/src/lib/seo.ts": "Utility function that updates the document title and meta tags for SEO, Open Graph, and Twitter metadata.",
+  "frontend/src/main.tsx": "App entry point that initializes React, wraps the app with QueryClient and InternetIdentity providers, and loads global styles.",
+  "frontend/tailwind.config.js": "Tailwind configuration enabling custom colors, typography, utilities, and theme extensions for a warm aesthetic.",
+  "project_state.json": "Defines project state, goals, and existing features for a beginner-friendly rug tufting tutorial site with affiliate links and Pinterest-optimized layout. Lists architectural notes, features, and metadata used for build planning."
+}

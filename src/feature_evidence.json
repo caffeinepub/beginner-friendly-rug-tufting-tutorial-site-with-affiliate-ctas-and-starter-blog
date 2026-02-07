@@ -1,0 +1,41 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-update-the-full-blog-post-page-to-include-extra-spacing-at-the-very-end-of-the-post-content-and-add-a-final-call-to-action-line-inviting-readers-interested-in-rug-tufting-to-open-the-complete-course-link-using-exactly-this-url-https-kramis-teppich-coachy-net-lp-rug-making-tutorial-aff-lishayk007",
+      "featureTitle": "Update the full blog post page to include extra spacing at the very end of the post content and add a final call-to-action line inviting readers interested in rug tufting to open the complete course link, using exactly this URL: https://kramis-teppich.coachy.net/lp/rug-making-tutorial/?aff=lishayK007",
+      "files": [
+        "frontend/src/components/blog/BlogPostView.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-11"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-replace-the-placeholder-affiliate-link-used-in-the-blog-post-s-existing-explore-the-complete-course-button-with-the-provided-url-https-kramis-teppich-coachy-net-lp-rug-making-tutorial-aff-lishayk007",
+      "featureTitle": "Replace the placeholder affiliate link used in the blog post's existing 'Explore the Complete Course' button with the provided URL: https://kramis-teppich.coachy.net/lp/rug-making-tutorial/?aff=lishayK007",
+      "files": [
+        "frontend/src/components/blog/BlogPostView.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-12"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

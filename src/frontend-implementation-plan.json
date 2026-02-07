@@ -1,0 +1,38 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Blog post end spacing and affiliate CTA link update",
+  "requirements": [
+    {
+      "id": "REQ-11",
+      "summary": "Add end-of-post spacing and a final rug tufting CTA line with the provided affiliate course link on the blog post detail view.",
+      "acceptanceCriteria": [
+        "On the blog post detail view, there is clear visual spacing (extra margin/padding) separating the final CTA from the rest of the blog content.",
+        "A final CTA sentence appears at the end of the blog post in English (e.g., 'If you’re interested in rug tufting, here’s a complete course—open the link.').",
+        "The final CTA includes a clickable link that opens in a new tab and points exactly to https://kramis-teppich.coachy.net/lp/rug-making-tutorial/?aff=lishayK007."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/blog/BlogPostView.tsx",
+          "operation": "modify",
+          "description": "At the very end of the blog post content (after the conclusion and before the back button), add a final CTA line in English with a clickable anchor to https://kramis-teppich.coachy.net/lp/rug-making-tutorial/?aff=lishayK007 that opens in a new tab (target + rel). Add clear visual separation via extra margin/padding so the CTA reads as the final element of the post. Reuse existing styling patterns and, where appropriate, existing shadcn-ui primitives already imported (e.g., typography classes or Button patterns) without modifying any files under frontend/src/components/ui. Verify the component's usage instructions before implementing."
+        }
+      ]
+    },
+    {
+      "id": "REQ-12",
+      "summary": "Replace the blog post detail view 'Explore the Complete Course' button link with the provided affiliate URL.",
+      "acceptanceCriteria": [
+        "On the blog post detail view, clicking 'Explore the Complete Course' opens a new tab to https://kramis-teppich.coachy.net/lp/rug-making-tutorial/?aff=lishayK007.",
+        "No '[PASTE AFFILIATE LINK HERE]' placeholder remains in the blog post detail view course button href."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/blog/BlogPostView.tsx",
+          "operation": "modify",
+          "description": "Update the existing 'Explore the Complete Course' CTA (currently using a placeholder href) to use exactly https://kramis-teppich.coachy.net/lp/rug-making-tutorial/?aff=lishayK007 while keeping new-tab behavior (target=\"_blank\" and rel=\"noopener noreferrer\") intact. This continues using the existing shadcn-ui Button wrapper (as currently used) without editing any files under frontend/src/components/ui. Verify the component's usage instructions before implementing."
+        }
+      ]
+    }
+  ]
+}

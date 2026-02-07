@@ -1,2 +1,3 @@
-# beginner-friendly-rug-tufting-tutorial-site-with-affiliate-ctas-and-starter-blog
-Exported from Caffeine project: Beginner-friendly rug tufting tutorial site with affiliate CTAs and starter blog post
+## 
+
+To run app build and run docker image: `docker build -t app . docker run -it --network host app`

@@ -1,0 +1,49 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-07T09:00:35.551Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 2,
+    "implemented": 2,
+    "items": [
+      {
+        "id": "REQ-11",
+        "summary": "Update the full blog post page to include extra spacing at the very end of the post content and add a final call-to-action line inviting readers interested in rug tufting to open the complete course link, using exactly this URL: https://kramis-teppich.coachy.net/lp/rug-making-tutorial/?aff=lishayK007",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/blog/BlogPostView.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/blog/BlogPostView.tsx"
+        ]
+      },
+      {
+        "id": "REQ-12",
+        "summary": "Replace the placeholder affiliate link used in the blog post's existing 'Explore the Complete Course' button with the provided URL: https://kramis-teppich.coachy.net/lp/rug-making-tutorial/?aff=lishayK007",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/blog/BlogPostView.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/blog/BlogPostView.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "build-template/README.md",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/src/components/blog/BlogPostView.tsx",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

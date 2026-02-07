@@ -1,0 +1,65 @@
+{
+  "kind": "build_request",
+  "title": "Add end-of-blog spacing and final CTA with provided affiliate course link",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-11",
+      "text": "Update the full blog post page to include extra spacing at the very end of the post content and add a final call-to-action line inviting readers interested in rug tufting to open the complete course link, using exactly this URL: https://kramis-teppich.coachy.net/lp/rug-making-tutorial/?aff=lishayK007",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "give a space at the end of the blog and write their if your re interested in rug tufting here you go a complete course open the link and add this link their https://kramis-teppich.coachy.net/lp/rug-making-tutorial/?aff=lishayK007"
+        ]
+      },
+      "acceptanceCriteria": [
+        "On the blog post detail view, there is clear visual spacing (extra margin/padding) separating the final CTA from the rest of the blog content.",
+        "A final CTA sentence appears at the end of the blog post in English (e.g., 'If you’re interested in rug tufting, here’s a complete course—open the link.').",
+        "The final CTA includes a clickable link that opens in a new tab and points exactly to https://kramis-teppich.coachy.net/lp/rug-making-tutorial/?aff=lishayK007."
+      ]
+    },
+    {
+      "id": "REQ-12",
+      "text": "Replace the placeholder affiliate link used in the blog post's existing 'Explore the Complete Course' button with the provided URL: https://kramis-teppich.coachy.net/lp/rug-making-tutorial/?aff=lishayK007",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "add this link their https://kramis-teppich.coachy.net/lp/rug-making-tutorial/?aff=lishayK007"
+        ]
+      },
+      "acceptanceCriteria": [
+        "On the blog post detail view, clicking 'Explore the Complete Course' opens a new tab to https://kramis-teppich.coachy.net/lp/rug-making-tutorial/?aff=lishayK007.",
+        "No '[PASTE AFFILIATE LINK HERE]' placeholder remains in the blog post detail view course button href."
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify any files under frontend/src/components/ui (read-only).",
+    "Do not add backend logic; this change must be implemented entirely in the frontend."
+  ],
+  "nonGoals": [
+    "Updating the homepage hero section affiliate link placeholder.",
+    "Updating the homepage course recommendation section affiliate link placeholder.",
+    "Adding new blog posts or changing existing blog content beyond the requested end-of-post CTA and link replacement."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  },
+  "userProfileUpdate": {
+    "goalsToAdd": [],
+    "goalsToRemove": [],
+    "preferencesToAdd": [],
+    "preferencesToRemove": [],
+    "miscToAdd": [],
+    "miscToRemove": [],
+    "fieldsToSet": {},
+    "fieldsToDelete": []
+  }
+}
